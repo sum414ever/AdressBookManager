@@ -22,38 +22,44 @@ Home page with references to other pages.
 2. Route `http://<host-name:port>/records/create`
 
 The page for adding a new records to the Address Book.
+<img src="images/Image_2.png">
 
 If a record with a given key already exists in the Address Book, then make redirect to the same page and display info about error.
+<img src="images/Image_3.png">
 
 3. Route `http://<host-name:port>/records/list`
 
 Page with all records from Address Book organized in a table and hyperlinks buttons for sorting, viewing, editing and deleting records.
+<img src="images/Image_4.png">
 
 The sort order is determined by one of two possible values (asc / desc) of the 'sort' request parameter.
 
 The 'ascending' button sorts by ascending first by first name and then by last name in the Address Book and the table.
+<img src="images/Image_5.png">
 
 The 'descending' button sorts by descending first by first name and then by last name in the Address Book and the table.
+<img src="images/Image_6.png">
 
 4. Route `http://<host-name:port>/records/read?first-name=<firtst name>&last-name=<last name>`
 
 The page for view info about record that correspond to key specified through the request parameters.
-
-
+<img src="images/Image_7.png">
 
 If the record with the given key is not found in the Address Book, then make redirect to the error page and return the status code 404.
-
-
+<img src="images/Image_8.png">
 
 5. Route http://<host-name:port>/records/update?first-name=<firtst name>&last-name=<last name>
 
 A page for edit an existing record that correspond to key specified through the request parameters.
+<img src="images/Image_9.png">
 
 If the record with the given key is not found in the Address Book, then make redirect to the error page and return the status code 404.
+<img src="images/Image_10.png">
 
 6. Route `http://<host-name:port>/records/delete?first-name=<firtst name>&last-name=<last name>`
 
 The 'Delete' button deletes the record that correspond to key specified through the request parameters from Address Book and the table.
+<img src="images/Image_11.png">
 
 *** Forbidden to use pure JavaScript and JavaScript libraries like jQuery.**
 
