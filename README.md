@@ -17,12 +17,12 @@ The below given list of all routes and examples of pages:
 1. Route `http://<host-name:port>/home`
 
 Home page with references to other pages.
-<img src="images/Image_1.png" width="700" heigth="300">
+<img src="images/Image_1.png" width="650" heigth="280">
 
 2. Route `http://<host-name:port>/records/create`
 
 The page for adding a new records to the Address Book.
-<img src="images/Image_2.png">
+<img src="images/Image_2.png width="700" heigth="300">
 
 If a record with a given key already exists in the Address Book, then make redirect to the same page and display info about error.
 
