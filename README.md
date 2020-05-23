@@ -17,7 +17,7 @@ The below given list of all routes and examples of pages:
 1. Route `http://<host-name:port>/home`
 
 Home page with references to other pages.
-<img src="images/Image_1.png" width="150" heigth="75">
+<img src="images/Image_1.png" width="700" heigth="300">
 
 2. Route `http://<host-name:port>/records/create`
 
