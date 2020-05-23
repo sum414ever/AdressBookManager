@@ -49,19 +49,23 @@ The page for view info about record that correspond to key specified through the
 <img src="images/Image_7.png" width="700" heigth="210">
 
 If the record with the given key is not found in the Address Book, then make redirect to the error page and return the status code 404.
+
 <img src="images/Image_8.png" width="600" heigth="260">
 
 5. Route http://<host-name:port>/records/update?first-name=<firtst name>&last-name=<last name>
 
 A page for edit an existing record that correspond to key specified through the request parameters.
+
 <img src="images/Image_9.png" width="650" heigth="230">
 
 If the record with the given key is not found in the Address Book, then make redirect to the error page and return the status code 404.
+
 <img src="images/Image_10.png" width="700" heigth="200">
 
 6. Route `http://<host-name:port>/records/delete?first-name=<firtst name>&last-name=<last name>`
 
 The 'Delete' button deletes the record that correspond to key specified through the request parameters from Address Book and the table.
+
 <img src="images/Image_11.png" width="550" heigth="230">
 
 *** Forbidden to use pure JavaScript and JavaScript libraries like jQuery.**
