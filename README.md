@@ -17,30 +17,31 @@ The below given list of all routes and examples of pages:
 1. Route `http://<host-name:port>/home`
 
 Home page with references to other pages.
+
 <img src="images/Image_1.png" width="500" heigth="270">
 
 2. Route `http://<host-name:port>/records/create`
 
 The page for adding a new records to the Address Book.
-<img src="images/Image_2.png" width="600" heigth="250">
+<img src="images/Image_2.png" width="550" heigth="230">
 
 If a record with a given key already exists in the Address Book, then make redirect to the same page and display info about error.
 
-<img src="images/Image_3.png" width="700" heigth="300">
+<img src="images/Image_3.png" width="550" heigth="230">
 
 3. Route `http://<host-name:port>/records/list`
 
 Page with all records from Address Book organized in a table and hyperlinks buttons for sorting, viewing, editing and deleting records.
 
-<img src="images/Image_4.png" width="700" heigth="300">
+<img src="images/Image_4.png" width="550" heigth="230">
 
 The sort order is determined by one of two possible values (asc / desc) of the 'sort' request parameter.
 
 The 'ascending' button sorts by ascending first by first name and then by last name in the Address Book and the table.
-<img src="images/Image_5.png" width="700" heigth="300">
+<img src="images/Image_5.png" width="550" heigth="230">
 
 The 'descending' button sorts by descending first by first name and then by last name in the Address Book and the table.
-<img src="images/Image_6.png" width="700" heigth="300">
+<img src="images/Image_6.png" width="550" heigth="230">
 
 4. Route `http://<host-name:port>/records/read?first-name=<firtst name>&last-name=<last name>`
 
