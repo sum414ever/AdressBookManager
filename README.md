@@ -22,7 +22,7 @@ Home page with references to other pages.
 2. Route `http://<host-name:port>/records/create`
 
 The page for adding a new records to the Address Book.
-<img src="images/Image_2.png width="500" heigth="200">
+<img src="images/Image_2.png width="400" heigth="150">
 
 If a record with a given key already exists in the Address Book, then make redirect to the same page and display info about error.
 
